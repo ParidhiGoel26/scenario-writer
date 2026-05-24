@@ -53,4 +53,37 @@ git clone https://github.com/ParidhiGoel26/scenario-writer-ai.git
 cd scenario-writer-ai
 ```
 
-### 1. Clone the Repository
+### 2. Install Backend Dependencies
+```bash
+pip install groq python-dotenv fastapi uvicorn
+```
+### 3. Install Frontend Dependencies
+```bash
+cd frontend
+npm install
+cd ..
+```
+
+### 4. Set Up API Key
+Create a .env file in the root folder:
+env
+GROQ_API_KEY=your_groq_api_key_here
+
+Get your free API key: 
+```bash
+https://console.groq.com/keys
+```
+
+### 5. Run the Application
+Terminal 1 - Start Backend
+```bash
+python api.py
+```
+
+Terminal 2 - Start Frontend
+```bash
+cd frontend
+npm start
+```
+
+
