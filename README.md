@@ -85,5 +85,6 @@ Terminal 2 - Start Frontend
 cd frontend
 npm start
 ```
-
+### Author
+Paridhi Goel
 
